@@ -154,15 +154,8 @@ import string
 
 password = ''.join(secrets.choice(string.ascii_letters + string.digits + string.punctuation) for _ in range(12))
 ```
-
-## Лицензия
-
-MIT License
-
 ## Автор
 
 arsennurel123
 
-## Контрибьютинг
 
-Приветствуются pull requests! Для больших изменений сначала откройте issue для обсуждения.
